@@ -1,0 +1,95 @@
+{
+  "cities": [
+    {
+      "id": "lyon",
+      "name": "Lyon",
+      "isUnlocked": true,
+      "imageUrl": "https://images.unsplash.com/photo-1524846786149-e6e61e0e9d38",
+      "description": "La Capitale de la Gastronomie",
+      "latitude": 45.764043,
+      "longitude": 4.835659,
+      "questSteps": [
+        {
+          "id": "step_1",
+          "title": "Basilique Notre-Dame de Fourvière",
+          "latitude": 45.762222,
+          "longitude": 4.822778,
+          "order": 1,
+          "isUnlocked": true,
+          "riddle": {
+            "question": "Cette basilique domine la colline de Fourvière. En quelle année a-t-elle été achevée ?",
+            "hint": "Elle a été construite à la fin du 19ème siècle après la guerre franco-prussienne.",
+            "correctAnswer": "1884",
+            "funFact": "La Basilique a été construite comme symbole de résistance lyonnaise ! Elle offre une vue panoramique époustouflante sur toute la ville.",
+            "points": 10
+          }
+        },
+        {
+          "id": "step_2",
+          "title": "Vieux Lyon",
+          "latitude": 45.762778,
+          "longitude": 4.827778,
+          "order": 2,
+          "isUnlocked": false,
+          "riddle": {
+            "question": "Le Vieux Lyon est célèbre pour ses 'traboules'. Que sont les traboules ?",
+            "hint": "Ce sont des éléments architecturaux uniques à Lyon, utilisés historiquement par les canuts.",
+            "correctAnswer": "passages secrets",
+            "funFact": "Les traboules sont des passages cachés qui relient les rues à travers les immeubles ! Il en existe plus de 400 à Lyon, et elles ont été utilisées par la Résistance française pendant la Seconde Guerre mondiale.",
+            "points": 15
+          }
+        },
+        {
+          "id": "step_3",
+          "title": "Place Bellecour",
+          "latitude": 45.757222,
+          "longitude": 4.832222,
+          "order": 3,
+          "isUnlocked": false,
+          "riddle": {
+            "question": "La Place Bellecour est l'une des plus grandes places ouvertes d'Europe. Quel roi français célèbre a une statue ici ?",
+            "hint": "Il était connu comme le 'Roi-Soleil' et a régné pendant 72 ans.",
+            "correctAnswer": "Louis XIV",
+            "funFact": "La place couvre 62 000 mètres carrés ! Elle est souvent utilisée pour des marchés, des festivals, et même une grande roue géante pendant Noël.",
+            "points": 20
+          }
+        },
+        {
+          "id": "step_4",
+          "title": "Parc de la Tête d'Or",
+          "latitude": 45.777222,
+          "longitude": 4.854167,
+          "order": 4,
+          "isUnlocked": false,
+          "riddle": {
+            "question": "Ce parc a ouvert en 1857 et contient un zoo célèbre. Combien d'hectares couvre le parc ?",
+            "hint": "C'est l'un des plus grands parcs urbains de France, plus grand que Central Park à New York.",
+            "correctAnswer": "117",
+            "funFact": "Le nom du parc signifie 'Tête d'Or' ! La légende raconte qu'une tête dorée du Christ serait enfouie quelque part en dessous, mais elle n'a jamais été retrouvée.",
+            "points": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "isUnlocked": false,
+      "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+      "description": "La Ville Lumière",
+      "latitude": 48.856614,
+      "longitude": 2.352222,
+      "questSteps": []
+    },
+    {
+      "id": "marseille",
+      "name": "Marseille",
+      "isUnlocked": false,
+      "imageUrl": "https://images.unsplash.com/photo-1582923386084-a77d8b1e492e",
+      "description": "La Plus Ancienne Ville de France",
+      "latitude": 43.296482,
+      "longitude": 5.36978,
+      "questSteps": []
+    }
+  ]
+}
