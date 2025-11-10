@@ -10,63 +10,83 @@
       "longitude": 4.835659,
       "questSteps": [
         {
-          "id": "step_1",
+          "id": "lyon_step_1",
           "title": "Basilique Notre-Dame de Fourvière",
           "latitude": 45.762222,
           "longitude": 4.822778,
           "order": 1,
           "isUnlocked": true,
           "riddle": {
-            "question": "Cette basilique domine la colline de Fourvière. En quelle année a-t-elle été achevée ?",
-            "hint": "Elle a été construite à la fin du 19ème siècle après la guerre franco-prussienne.",
-            "correctAnswer": "1884",
-            "funFact": "La Basilique a été construite comme symbole de résistance lyonnaise ! Elle offre une vue panoramique époustouflante sur toute la ville.",
+            "question": "Où se trouve la basilique Notre-Dame de Fourvière ?",
+            "choices": [
+              "En haut d'une colline",
+              "Sous la place Bellecour",
+              "Au bord de la mer"
+            ],
+            "correctAnswer": "En haut d'une colline",
+            "hint": "On y monte pour voir toute la ville.",
+            "funFact": "La basilique offre une des plus belles vues sur toute la ville de Lyon.",
             "points": 10
           }
         },
         {
-          "id": "step_2",
+          "id": "lyon_step_2",
           "title": "Vieux Lyon",
           "latitude": 45.762778,
           "longitude": 4.827778,
           "order": 2,
           "isUnlocked": false,
           "riddle": {
-            "question": "Le Vieux Lyon est célèbre pour ses 'traboules'. Que sont les traboules ?",
-            "hint": "Ce sont des éléments architecturaux uniques à Lyon, utilisés historiquement par les canuts.",
-            "correctAnswer": "passages secrets",
-            "funFact": "Les traboules sont des passages cachés qui relient les rues à travers les immeubles ! Il en existe plus de 400 à Lyon, et elles ont été utilisées par la Résistance française pendant la Seconde Guerre mondiale.",
-            "points": 15
+            "question": "Le Vieux Lyon est connu pour ses 'traboules'. Que sont-elles ?",
+            "choices": [
+              "Des passages secrets entre les immeubles",
+              "Des spécialités culinaires",
+              "Des bateaux sur le Rhône"
+            ],
+            "correctAnswer": "Des passages secrets entre les immeubles",
+            "hint": "Elles permettent de passer d'une rue à une autre en coupant à travers les bâtiments.",
+            "funFact": "Les traboules ont été utilisées par les résistants pendant la Seconde Guerre mondiale.",
+            "points": 10
           }
         },
         {
-          "id": "step_3",
+          "id": "lyon_step_3",
           "title": "Place Bellecour",
           "latitude": 45.757222,
           "longitude": 4.832222,
           "order": 3,
           "isUnlocked": false,
           "riddle": {
-            "question": "La Place Bellecour est l'une des plus grandes places ouvertes d'Europe. Quel roi français célèbre a une statue ici ?",
-            "hint": "Il était connu comme le 'Roi-Soleil' et a régné pendant 72 ans.",
-            "correctAnswer": "Louis XIV",
-            "funFact": "La place couvre 62 000 mètres carrés ! Elle est souvent utilisée pour des marchés, des festivals, et même une grande roue géante pendant Noël.",
-            "points": 20
+            "question": "Que trouve-t-on au centre de la place Bellecour ?",
+            "choices": [
+              "Une grande roue permanente",
+              "Une statue de Louis XIV",
+              "Une fontaine avec des lions"
+            ],
+            "correctAnswer": "Une statue de Louis XIV",
+            "hint": "On l'appelle le Roi-Soleil.",
+            "funFact": "La place Bellecour est l’une des plus grandes places piétonnes d’Europe.",
+            "points": 15
           }
         },
         {
-          "id": "step_4",
+          "id": "lyon_step_4",
           "title": "Parc de la Tête d'Or",
           "latitude": 45.777222,
           "longitude": 4.854167,
           "order": 4,
           "isUnlocked": false,
           "riddle": {
-            "question": "Ce parc a ouvert en 1857 et contient un zoo célèbre. Combien d'hectares couvre le parc ?",
-            "hint": "C'est l'un des plus grands parcs urbains de France, plus grand que Central Park à New York.",
-            "correctAnswer": "117",
-            "funFact": "Le nom du parc signifie 'Tête d'Or' ! La légende raconte qu'une tête dorée du Christ serait enfouie quelque part en dessous, mais elle n'a jamais été retrouvée.",
-            "points": 25
+            "question": "Que trouve-t-on dans le parc de la Tête d'Or ?",
+            "choices": [
+              "Un zoo et un lac",
+              "Un aéroport",
+              "Une plage"
+            ],
+            "correctAnswer": "Un zoo et un lac",
+            "hint": "C'est un endroit parfait pour se promener en famille.",
+            "funFact": "Le parc fait environ 117 hectares et abrite un zoo gratuit.",
+            "points": 20
           }
         }
       ]
@@ -74,12 +94,93 @@
     {
       "id": "paris",
       "name": "Paris",
-      "isUnlocked": false,
+      "isUnlocked": true,
       "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
       "description": "La Ville Lumière",
       "latitude": 48.856614,
       "longitude": 2.352222,
-      "questSteps": []
+      "questSteps": [
+        {
+          "id": "paris_step_1",
+          "title": "Tour Eiffel",
+          "latitude": 48.858370,
+          "longitude": 2.294481,
+          "order": 1,
+          "isUnlocked": true,
+          "riddle": {
+            "question": "Pourquoi la Tour Eiffel a-t-elle été construite au départ ?",
+            "choices": [
+              "Pour une exposition universelle",
+              "Pour servir d’antenne télé",
+              "Comme palais royal"
+            ],
+            "correctAnswer": "Pour une exposition universelle",
+            "hint": "Elle a été inaugurée en 1889.",
+            "funFact": "Elle devait être temporaire, mais elle est devenue le symbole de Paris.",
+            "points": 10
+          }
+        },
+        {
+          "id": "paris_step_2",
+          "title": "Musée du Louvre",
+          "latitude": 48.860611,
+          "longitude": 2.337644,
+          "order": 2,
+          "isUnlocked": false,
+          "riddle": {
+            "question": "Quel célèbre tableau se trouve au Louvre ?",
+            "choices": [
+              "La Joconde",
+              "La Nuit étoilée",
+              "Le Cri"
+            ],
+            "correctAnswer": "La Joconde",
+            "hint": "Peinte par Léonard de Vinci.",
+            "funFact": "La Joconde est protégée derrière une vitre blindée.",
+            "points": 10
+          }
+        },
+        {
+          "id": "paris_step_3",
+          "title": "Cathédrale Notre-Dame",
+          "latitude": 48.852968,
+          "longitude": 2.349902,
+          "order": 3,
+          "isUnlocked": false,
+          "riddle": {
+            "question": "Quel type de monument est Notre-Dame de Paris ?",
+            "choices": [
+              "Une cathédrale",
+              "Un château",
+              "Un stade"
+            ],
+            "correctAnswer": "Une cathédrale",
+            "hint": "Elle est située sur l'île de la Cité.",
+            "funFact": "Son chantier de restauration fait suite à l’incendie de 2019.",
+            "points": 15
+          }
+        },
+        {
+          "id": "paris_step_4",
+          "title": "Sacré-Cœur, Montmartre",
+          "latitude": 48.886705,
+          "longitude": 2.343104,
+          "order": 4,
+          "isUnlocked": false,
+          "riddle": {
+            "question": "Où se trouve le Sacré-Cœur ?",
+            "choices": [
+              "Sur la colline de Montmartre",
+              "Au bord de la Seine",
+              "Sous la Tour Eiffel"
+            ],
+            "correctAnswer": "Sur la colline de Montmartre",
+            "hint": "C’est un des points les plus hauts de Paris.",
+            "funFact": "Depuis le parvis, on a une vue magnifique sur tout Paris.",
+            "points": 20
+          }
+        }
+      ]
     },
     {
       "id": "marseille",
