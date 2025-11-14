@@ -12,6 +12,7 @@
         {
           "id": "lyon_step_1",
           "title": "Basilique Notre-Dame de Fourvière",
+          "imageUrl": "https://strapi-upload.cdn.fondation-patrimoine.org/basilique_ND_DE_Fourviere_Bony_Photography_30f3bf8e9d.jpg"
           "latitude": 45.762222,
           "longitude": 4.822778,
           "order": 1,
@@ -32,6 +33,7 @@
         {
           "id": "lyon_step_2",
           "title": "Vieux Lyon",
+          "imageUrl": "https://uploads.lebonbon.fr/source/2023/march/2042708/shutterstock-2113005761_1_2000.jpg"
           "latitude": 45.762778,
           "longitude": 4.827778,
           "order": 2,
@@ -52,6 +54,7 @@
         {
           "id": "lyon_step_3",
           "title": "Place Bellecour",
+          "imageUrl":"https://www.visitelyon.fr/wp-content/uploads/2021/03/place-bellecour-lyon-3.jpeg"
           "latitude": 45.757222,
           "longitude": 4.832222,
           "order": 3,
@@ -72,6 +75,7 @@
         {
           "id": "lyon_step_4",
           "title": "Parc de la Tête d'Or",
+          "imageUrl": "https://visitonslyon.com/wp-content/uploads/2023/12/park-head-gold-7211491_1280-1024x682.jpg"
           "latitude": 45.777222,
           "longitude": 4.854167,
           "order": 4,
@@ -103,6 +107,7 @@
         {
           "id": "paris_step_1",
           "title": "Tour Eiffel",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaOh8mb1g6hHLFQRc03jMkPJf-VJ8T42jdAw&s"
           "latitude": 48.858370,
           "longitude": 2.294481,
           "order": 1,
@@ -123,6 +128,7 @@
         {
           "id": "paris_step_2",
           "title": "Musée du Louvre",
+          "imageUrl": "https://api-www.louvre.fr/sites/default/files/2021-01/cour-napoleon-et-pyramide_1.jpg"
           "latitude": 48.860611,
           "longitude": 2.337644,
           "order": 2,
@@ -143,6 +149,7 @@
         {
           "id": "paris_step_3",
           "title": "Cathédrale Notre-Dame",
+          "imageUrl": "https://www.cometoparis.com/data/layout_image/20792_0bd10b87f37ed3c3edf836e8b8f5a254_landscape_3-2_xl.jpg?ver=1738235519"
           "latitude": 48.852968,
           "longitude": 2.349902,
           "order": 3,
@@ -163,6 +170,7 @@
         {
           "id": "paris_step_4",
           "title": "Sacré-Cœur, Montmartre",
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/0c/65/6e/caption.jpg?w=900&h=500&s=1"
           "latitude": 48.886705,
           "longitude": 2.343104,
           "order": 4,
